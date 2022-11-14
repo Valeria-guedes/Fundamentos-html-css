@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/*ajustar a borda ao tamanho do elemento*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    background-color: #1D2437;
+    background-image: url('../imagem/bg.png');
+
+}
+
+.container {
+    max-width: 1070px;
+    margin: auto;
+    color: #FFF;
+}
+
+header {
+    padding-top: 45px;
+  
+}
+
+.heroArea {
+    display: flex;
+}
+
+.heroArea .leftside {
+    flex: 1;
+
+}
+
+.heroArea .leftside h1 {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 50px;
+    margin: 80px 0 20px 0;
+
+}
+
+.heroArea .leftside .subtitle {
+    font-size: 16px;
+    line-height: 23px;
+    color: rgb(124, 122, 122);
+    margin-bottom: 20px;
+}
+.heroArea .leftside .form{
+    margin-bottom: 20px;
+}
+.heroArea .leftside .form input {
+    border: 1px solid rgb(59, 59, 59);
+    background: transparent;
+    height: 40px;
+    color: #FFF;
+    outline: none;
+    font-size: 14px;
+}
+
+.heroArea .leftside .form button {
+    border: 0;
+    height: 40px;
+    background: #0071B7;
+    color: #FFF;
+    font-size: 14px;
+    padding: 0 20px;
+
+}
+.heroArea .leftside .techs{
+    margin-bottom: 80px;
+}
+
+.heroArea .leftside .techs img {
+    margin-right: 10px;
+
+}
+
+.heroArea .rightside {
+    flex: 1;
+    background-image: url('../imagem/hero.png');
+    background-size: 100% auto;
+
+}
