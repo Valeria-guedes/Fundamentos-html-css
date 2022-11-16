@@ -61,6 +61,8 @@ header {
     color: #FFF;
     outline: none;
     font-size: 14px;
+    width: 300px;
+    padding: 0 10px ;
 }
 
 .heroArea .leftside .form button {
@@ -70,6 +72,7 @@ header {
     color: #FFF;
     font-size: 14px;
     padding: 0 20px;
+    margin-left: 10px;
 
 }
 .heroArea .leftside .techs{
